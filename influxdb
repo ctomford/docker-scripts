@@ -1,0 +1,1 @@
+sudo docker run -d --name="influxdb" --net=host --restart always  -p 8086:8086 -v /volume1/docker/influxdb/:/var/lib/influxdb influxdb
